@@ -53,5 +53,5 @@ func main() {
 		fmt.Println(i.Description())
 	}
 
-	fmt.Println("Toplam Fiyat: ", totalPrice(items))
+	fmt.Printf("Toplam Fiyat: %2.f TL\n", totalPrice(items))
 }
